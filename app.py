@@ -149,7 +149,7 @@ with gr.Blocks() as ui:
 
                 with gr.Row():
                     # model selection dropdown
-                    model = gr.Dropdown(label="Model", choices=["tiny", "base", "small", "medium", "large", "large-v2"], value="base")
+                    model = gr.Dropdown(label="Model", choices=["tiny", "base", "small", "medium", "large-v1", "large-v2"], value="base")
                     # langaue hint input
                     lang = gr.Text(label="Language Hint", placeholder="en")
 
